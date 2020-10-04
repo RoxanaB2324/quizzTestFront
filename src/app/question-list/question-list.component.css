@@ -1,0 +1,85 @@
+h5 {
+    margin-right: 10px;
+    color: grey;
+}
+.separatorDiv {
+    height: 20px;
+}
+.filters {
+    border: solid 1px #d9d9d9;
+    border-radius: 7px;
+    margin: 4px;
+    padding: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: #f2f2f2;
+}
+.groupsFilterOption {
+    width: 99%;
+    margin-bottom: 5px;
+    border-top:2px solid green;
+}
+
+.dataTabel {
+    height: 40%;
+    overflow: scroll;
+}
+
+.displayData {
+    border-bottom:2px solid green;
+
+}
+
+.viewContainer {
+    height: 100%;
+
+    button {
+        font-size: small !important;
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
+        
+    }
+    
+}
+
+.questionsTabel {
+    overflow: scroll;
+    height: 35%;
+    margin-top: 20px;
+    label {
+        color: black;
+        margin-right: 5px;
+    }
+}
+
+.groupTabel {
+    overflow: scroll;
+    height: 15%;
+    margin-top: 20px;
+    border-bottom:2px solid green;
+   
+    label {
+        color: black;
+        margin-right: 5px;
+    }
+}
+
+.markSelected {
+    background-color: #b3ffb3;
+}
+
+.row-id {
+    width: 5%;
+}
+.row-name {
+    width: 50%;
+}
+.row-time {
+    width: 10%;
+}
+.row-points {
+    width: 5%;
+}
+.row-actions {
+    width: 20% !important;
+}

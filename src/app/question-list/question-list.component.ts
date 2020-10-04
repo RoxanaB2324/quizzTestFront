@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {QuestionListService} from './question-list.service';
+// import {QuestionListService} from './question-list.service';
+
 @Component({
   selector: 'app-question-list',
   templateUrl: './question-list.component.html',
@@ -9,15 +10,19 @@ import {QuestionListService} from './question-list.service';
 
 export class QuestionListComponent implements OnInit {
 
-  constructor(private service : QuestionListService) {  }
+  constructor() {  }
 
   questionsToDisplay = [];
 
   ngOnInit(): void {
-    this.service.getData().subscribe((items: Array<any>)=>{
-      console.log ("Question are:  ", items);
-      this.questionsToDisplay = items;
-    })
+    
   }
+loadData(){
+  // this.service.getData().subscribe((items: Array<any>)=>{
+    //   console.log ("Question are:  ", items);
+    //   this.questionsToDisplay = items;
+    // })
+}
+
 
 }
